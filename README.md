@@ -73,13 +73,13 @@ Admin hesabı bilgileri:
 - **Menü Başlıklarını Getirme**: `GET /VehicleSettings/GetSettingsTitles`
 - **Far Verilerini Getirme**: `GET /VehicleSettings/GetHeadlightsData`
 - **Sis Far Verilerini Getirme**: `GET /VehicleSettings/GetFoglightsData`
-- **Navigasyon Verilerini Kaydetme**: `POST /VehicleSettings/SaveNavigation`
+- **Navigasyon Verilerini Kaydetme**: `POST /user/SaveNavigation`
 
 ### Frontend Kullanımı
 
 - **Far Ayarları**: Kullanıcı, farları seçip güncelleyebilir.
 - **Sis Farı Ayarları**: Ön ve arka sis farlarını açıp kapatabilir.
-- **Yolculuk Verileri**: Kullanıcı yolculuk verilerini kaydedebilir ve yönetebilir.
+- **Yolculuk Verileri**: Kullanıcı navigasyonu kullanıp rota oluşturabilir ve verilerini kayıtedilir.
 
 
 ## İletişim
